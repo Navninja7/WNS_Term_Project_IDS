@@ -91,17 +91,9 @@ which python
 # Upgrade pip
 pip install --upgrade pip
 
-# Install core dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn
+#install from requirements.txt
+pip install -r requirements.txt
 
-# Install scapy for packet capture
-pip install scapy
-
-# Install optional dependencies
-pip install tqdm jupyter
-
-# Verify installation
-python -c "import pandas, sklearn, scapy; print('All packages installed successfully!')"
 ```
 
 ### Step 3: Install System Dependencies
@@ -226,10 +218,8 @@ ls -1
 5_combine_datasets.py
 6_validate_dataset.py
 train_ml_model.py
-realtime_ids_rf.py
-test_pcap_rf.py
-detect_rogue_evil_twin.py
-scan_aps.py
+realtime_ids.py
+test_model_on_pcap.py
 ```
 
 ### Step 4: Decrypt PCAPs (Optional - Manual if needed)
