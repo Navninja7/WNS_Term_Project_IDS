@@ -19,7 +19,7 @@ Complete end-to-end system for processing AWID3 dataset and deploying a producti
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a lightweight WiFi Intrusion Detection System that detects 13 different types of attacks:
 
@@ -63,7 +63,7 @@ This project implements a lightweight WiFi Intrusion Detection System that detec
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Step 1: Create Virtual Environment
 
@@ -322,7 +322,7 @@ python 6_validate_dataset.py ../output/3_labeled_csvs
 
 ---
 
-## 🤖 Phase 2: ML Model Training
+## Phase 2: ML Model Training
 
 ### Step 1: Train Random Forest Model
 
@@ -433,7 +433,7 @@ Open the generated plots:
 
 ---
 
-## 🚨 Phase 3: Real-time Deployment
+## Phase 3: Real-time Deployment
 
 ### Step 1: Setup WiFi Adapter for Monitoring
 
@@ -804,7 +804,7 @@ sudo aireplay-ng --deauth 10 -a AA:BB:CC:DD:EE:FF wlan0mon
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 awid3_project/
@@ -831,18 +831,18 @@ awid3_project/
 │   ├── 4_dataset_statistics.py
 │   ├── 5_combine_datasets.py
 │   ├── 6_validate_dataset.py
-│   ├── train_ml_model.py            ⭐ Main training script
-│   ├── realtime_ids_rf.py           ⭐ Real-time detection
+│   ├── train_ml_model.py             Main training script
+│   ├── realtime_ids_rf.py            Real-time detection
 │   ├── test_pcap_rf.py
-│   ├── detect_rogue_evil_twin.py    ⭐ Rogue AP detection
+│   ├── detect_rogue_evil_twin.py     Rogue AP detection
 │   └── scan_aps.py
 │
 ├── output/                           # Processed data
 │   ├── 1_decrypted_pcaps/           # Decrypted PCAPs
 │   ├── 2_feature_csvs/              # Feature CSVs
-│   └── 3_labeled_csvs/              # Labeled datasets ⭐
+│   └── 3_labeled_csvs/              # Labeled datasets 
 │
-├── models/                           # Trained models ⭐
+├── models/                           # Trained models 
 │   ├── random_forest_model.pkl      # Main model
 │   ├── scaler.pkl                   # Feature scaler
 │   ├── evaluation_results.json
@@ -857,7 +857,7 @@ awid3_project/
 
 ---
 
-## 🎓 Usage Examples
+## Usage Examples
 
 ### Example 1: Complete Workflow
 
@@ -953,7 +953,7 @@ If you use this system in your research, please cite:
 
 ---
 
-## 🤝 Support
+## Support
 
 ### Common Issues
 
@@ -971,7 +971,7 @@ If you use this system in your research, please cite:
 
 ---
 
-## ✅ Quick Reference
+## Quick Reference
 
 ### Activate Environment
 ```bash
@@ -1004,7 +1004,7 @@ sudo airmon-ng stop wlan0mon
 
 ---
 
-**🎉 Your WiFi IDS is now ready for deployment!**
+** Your WiFi IDS is now ready for deployment!**
 
 For detailed guides, see:
 - `ML_TRAINING_GUIDE.md` - Detailed ML training guide
