@@ -566,7 +566,7 @@ cat alerts.log | grep -E '"confidence":(0\.[9][5-9]|1\.0)'
 
 ---
 
-## 🔍 Phase 4: Rogue AP Detection
+## Phase 4: Rogue AP Detection
 
 ### Step 1: Scan for Authorized APs
 
