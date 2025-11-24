@@ -656,7 +656,7 @@ ML Detection: Evil_Twin (confidence: 96.20%)
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Issue 1: Virtual Environment Not Activating
 
