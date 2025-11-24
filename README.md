@@ -4,7 +4,7 @@ Complete end-to-end system for processing AWID3 dataset and deploying a producti
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [System Requirements](#system-requirements)
@@ -42,7 +42,7 @@ This project implements a lightweight WiFi Intrusion Detection System that detec
 
 ---
 
-## 💻 System Requirements
+## System Requirements
 
 ### Hardware Requirements
 
@@ -161,7 +161,7 @@ scapy OK
 
 ---
 
-## 📊 Phase 1: Dataset Preparation
+## Phase 1: Dataset Preparation
 
 ### Step 1: Download AWID3 Dataset
 
@@ -915,7 +915,7 @@ sudo python detect_rogue_evil_twin.py \
 
 ---
 
-## 📊 Expected Performance
+## Expected Performance
 
 ### Training Metrics
 
@@ -935,7 +935,7 @@ sudo python detect_rogue_evil_twin.py \
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you use this system in your research, please cite:
 
@@ -1003,14 +1003,3 @@ sudo airmon-ng stop wlan0mon
 ```
 
 ---
-
-** Your WiFi IDS is now ready for deployment!**
-
-For detailed guides, see:
-- `ML_TRAINING_GUIDE.md` - Detailed ML training guide
-- `ROGUE_AP_DETECTION_GUIDE.md` - Rogue AP and Evil Twin detection
-- `COMPLETE_WORKFLOW.md` - End-to-end workflow documentation
-
-**Version**: 1.0  
-**Last Updated**: 2024  
-**License**: MIT
