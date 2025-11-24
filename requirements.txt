@@ -1,0 +1,35 @@
+# AWID3 Dataset Processing Pipeline - Python Requirements
+
+# Core data processing
+pandas>=1.3.0
+
+# Optional: For advanced analysis
+numpy>=1.21.0
+
+
+# Note: tshark/Wireshark must be installed separately via system package manager
+# Ubuntu/Debian: sudo apt-get install wireshark tshark
+# macOS: brew install wireshark
+# Windows: Download from https://www.wireshark.org/download.html
+
+
+# ML Training and Real-time IDS Requirements
+
+# Core ML libraries
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Plotting
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Real-time packet capture
+scapy>=2.4.5
+
+# Progress bars (optional)
+tqdm>=4.62.0
+
+# Note: For real-time capture, you also need:
+# - Linux: sudo apt-get install tcpdump
+# - macOS: tcpdump usually pre-installed
+# - Windows: Install Npcap from https://npcap.com/
